@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap');
+.bga{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2e2447+0,1f2029+100 */
+background: rgb(2, 12, 27); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(1, 7, 16) 0%,rgb(21, 21, 27) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(1, 7, 16) 0%,rgb(21, 21, 27) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(1, 7, 16) 0%,rgb(21, 21, 27) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020c1b', endColorstr='#1f2029',GradientType=0 ); /* IE6-9 */
+
+}
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.roboto{
+font-family: 'Roboto', sans-serif;
+}
+.b{
+    -webkit-tap-highlight-color: transparent;
+}
+svg {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    
+   }
+   #pulseLine {
+       stroke: #C7F8E4;
+       stroke-width: 4px;
+       fill: none;
+       stroke-linecap: round;
+       stroke-linejoin: round;
+   }
+   .dda{
+    font-family: 'Reem Kufi Fun', sans-serif;
+
+   }
+   
+   
+   
+   .gsap-3-logo {
+   width: 20vw;
+   max-width: 150px;
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   }
+   .bl{
+    bottom: 0;
+    position: fixed;
+    left: 50px;
+}
+.b{
+    -webkit-tap-highlight-color: transparent;
+}
+*{
+    -webkit-tap-highlight-color: transparent;
+
+}
+#dds{
+    width: 96vw;
+    }
+    #m22{
+      margin-bottom: 74rem;
+    }
+    #msgg{
+      width: auto;
+      max-width: 20rem;
+    }
+    #inmsg{
+        width: 100%; 
+       height: 40px;
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+       bottom: 4px;
+       font-family: 'Cairo', sans-serif;
+      }
+      #inmsgcam{
+       bottom: 12px;
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+      }
+      #inmsgsend{
+       font-family: 'Cairo', sans-serif;
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+       bottom: -0px;
+       right: 16px;
+      }
+      .ttt{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: -0px;
+
+      }
+      .v{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: -0px;
+
+      }
+      .ssa{
+        object-fit: cover;
+      }
